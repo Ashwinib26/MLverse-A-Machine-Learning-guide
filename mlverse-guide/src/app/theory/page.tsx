@@ -52,7 +52,7 @@ export default function TheoryPage() {
 
   return (
     <div className="max-w-4xl mx-auto px-6 py-12 text-gray-900">
-      <h1 className="text-3xl sm:text-4xl font-bold mb-8 text-blue-700 text-center">
+      <h1 className="text-3xl sm:text-4xl font-bold mb-8 text-rose-400 text-center">
         📘 Machine Learning Theory Guide
       </h1>
 
@@ -62,7 +62,7 @@ export default function TheoryPage() {
             key={index}
             className="p-6 border border-gray-200 rounded-xl bg-white shadow-sm hover:shadow-md transition"
           >
-            <h2 className="text-xl font-semibold mb-2 text-blue-600">
+            <h2 className="text-xl font-semibold mb-2 text-rose-900">
               {topic.emoji} {topic.title}
             </h2>
             <p className="text-base leading-relaxed text-gray-700">

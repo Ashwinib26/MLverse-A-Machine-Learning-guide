@@ -36,7 +36,7 @@ export default function PracticalPage() {
 
   return (
     <div className="max-w-4xl mx-auto px-6 py-12 text-gray-900">
-      <h1 className="text-3xl sm:text-4xl font-bold mb-8 text-blue-700 text-center">
+      <h1 className="text-3xl sm:text-4xl font-bold mb-8 text-rose-400 text-center">
         🧪 Machine Learning Practicals
       </h1>
 
@@ -47,7 +47,7 @@ export default function PracticalPage() {
             className="p-6 border border-gray-200 rounded-xl bg-white shadow-sm hover:shadow-md transition flex justify-between items-center"
           >
             <div className="flex flex-col">
-              <h2 className="text-xl font-semibold mb-1 text-blue-700">
+              <h2 className="text-xl font-semibold mb-1 text-rose-700">
                 {item.emoji} {item.title}
               </h2>
               <p className="text-sm text-gray-600">
@@ -60,7 +60,7 @@ export default function PracticalPage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="bg-blue-900 hover:bg-blue-700 text-white text-sm sm:text-base font-medium px-5 py-2 rounded-full transition">
+              <button className="bg-rose-900 hover:bg-rose-700 text-white text-sm sm:text-base font-medium px-5 py-2 rounded-full transition">
                 Open Notebook
               </button>
             </Link>

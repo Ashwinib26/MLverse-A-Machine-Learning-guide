@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "MLVerse",
-  description: "Computer Vision Learning Guide",
+  description: "Machine Learning Guide",
 };
 
 export default function RootLayout({

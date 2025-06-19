@@ -4,13 +4,24 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <header className="w-full bg-blue-600 text-white shadow-md">
+    <header className="w-full bg-rose-900 text-rose-100 shadow-md border-b border-rose-200">
       <div className="flex items-center justify-between px-6 py-4 max-w-screen-xl mx-auto">
-        <div className="text-xl font-semibold">MLVerse</div>
+        {/* Logo/Brand */}
+        <div className="text-xl font-semibold tracking-tight text-rose-400">
+          MLVerse
+        </div>
+
+        {/* Navigation Links */}
         <nav className="flex gap-6 text-sm sm:text-base font-medium items-center">
-          <Link href="/" className="hover:underline">Home</Link>
-          <Link href="/theory" className="hover:underline">Theory</Link>
-          <Link href="/practical" className="hover:underline">Practical</Link>
+          <Link href="/" className="hover:underline hover:text-rose-700 transition">
+            Home
+          </Link>
+          <Link href="/theory" className="hover:underline hover:text-rose-700 transition">
+            Theory
+          </Link>
+          <Link href="/practical" className="hover:underline hover:text-rose-700 transition">
+            Practical
+          </Link>
         </nav>
       </div>
     </header>

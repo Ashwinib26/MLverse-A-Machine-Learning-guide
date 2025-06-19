@@ -24,10 +24,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen bg-[#fff1f2] text-neutral-900`}>
         <Header />
         <main className="flex-grow px-6 py-4">{children}</main>
-        <footer className="w-full py-4 px-6 bg-gray-100 text-center text-sm text-gray-600">
+        <footer className="w-full py-4 px-6 bg-[#ffeef0] text-center text-sm text-neutral-600 border-t border-rose-100">
           © {new Date().getFullYear()} MLVerse. All rights reserved.
         </footer>
       </body>

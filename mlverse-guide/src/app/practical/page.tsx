@@ -3,6 +3,11 @@ import Link from "next/link";
 export default function PracticalPage() {
   const practicals = [
     {
+      title: "Exploratory Data Analysis (EDA)",
+      emoji: "📊",
+      filename: "EDA.ipynb"
+    },
+    {
       title: "Linear Regression",
       emoji: "📈",
       filename: "Linear Regression.ipynb"
@@ -13,35 +18,20 @@ export default function PracticalPage() {
       filename: "Logistic Regression.ipynb"
     },
     {
-      title: "Decision Trees & Random Forests",
+      title: "Decision Trees",
       emoji: "🌳",
-      filename: "Decision Trees and Random Forests.ipynb"
+      filename: "Decision Tree Classifier.ipynb"
     },
     {
-      title: "Support Vector Machines (SVM)",
+      title: "Naive-Bayes Theoram",
       emoji: "⚖️",
-      filename: "Support Vector Machines.ipynb"
-    },
-    {
-      title: "K-Nearest Neighbors (KNN)",
-      emoji: "👥",
-      filename: "K-Nearest Neighbors.ipynb"
+      filename: "Naive Bayes.ipynb"
     },
     {
       title: "K-Means Clustering",
       emoji: "🔵",
-      filename: "K-Means Clustering.ipynb"
+      filename: "K-Means.ipynb"
     },
-    {
-      title: "Principal Component Analysis (PCA)",
-      emoji: "📊",
-      filename: "Principal Component Analysis.ipynb"
-    },
-    {
-      title: "Neural Networks (Intro to Deep Learning)",
-      emoji: "🧠",
-      filename: "Neural Networks Introduction.ipynb"
-    }
   ];
 
   return (

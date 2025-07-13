@@ -35,6 +35,12 @@ mlverse/
 ````
 
 ---
+## 📷 Screenshots 
+<img width="1905" height="962" alt="image" src="https://github.com/user-attachments/assets/1a854313-35d3-48e5-a8e2-9cae9e07fa78" />
+<img width="1900" height="987" alt="image" src="https://github.com/user-attachments/assets/16f3426d-402d-4c00-abba-993293ba391f" />
+<img width="1898" height="982" alt="image" src="https://github.com/user-attachments/assets/ed77ac0a-6110-4c03-955e-6b6791e6dea2" />
+
+---
 
 ## 🚀 Getting Started
 

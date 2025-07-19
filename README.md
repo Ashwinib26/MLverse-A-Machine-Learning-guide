@@ -3,6 +3,7 @@
 
 MLVerse is an educational platform built with **Next.js** and **Tailwind CSS** to help learners explore theoretical and practical aspects of Machine Learning in a structured, accessible way.
 
+#### Visit Here : https://m-lverse-a-machine-learning-guide.vercel.app/
 ---
 
 ## ✨ Tech Stack
@@ -89,21 +90,6 @@ content: [
 
 ---
 
-## 🌐 Deployment
-
-Deploy the app using [Vercel](https://vercel.com/) for a seamless Next.js hosting experience.
-
----
-
-## 📌 Pages to Add
-
-* `/`: Landing page
-* `/theory`: ML theory content
-* `/practical`: Hands-on code examples
-* `/resources`: Links to tutorials, videos, datasets
-* `/about`: Info about the project
-
----
 
 ## 🛠 Future Enhancements
 
@@ -119,3 +105,4 @@ Deploy the app using [Vercel](https://vercel.com/) for a seamless Next.js hostin
 This project is licensed under the MIT License.
 
 ```
+THANK YOU !!
